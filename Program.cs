@@ -32,7 +32,7 @@
 // if (dayNumber < 1) System.Console.WriteLine("Такого дня нет");
 
 // 5. Напишите программу, которая на вход принимает число N, а на выходе показывает все целые числа в промежутке от -N до N.
-System.Console.WriteLine("Введите число N");
+Console.WriteLine("Введите число N");
 int number = Convert.ToInt32(Console.ReadLine());
 int negativeNumber = number * (-1);
 if (number < 0)
@@ -43,6 +43,6 @@ if (number < 0)
 }
 while (negativeNumber <= number)
 {
-    System.Console.Write(negativeNumber + " ");
+    Console.Write(negativeNumber + " ");
     negativeNumber++;
 }
