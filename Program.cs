@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-Console.Clear();
+﻿Console.Clear();
 // // 2. Задача на квадрат числа
 // Console.WriteLine("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine()); 
